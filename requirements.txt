@@ -91,7 +91,6 @@ notebook==7.0.7
 notebook_shim==0.2.3
 numpy>=1.21.0,<1.22.0
 pywin32==306; sys_platform == 'win32'
-sys_platform == 'win32'
 openai==1.10.0
 openpyxl==3.1.2
 overrides==7.6.0
@@ -116,7 +115,7 @@ pyparsing==3.1.2
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2024.1
-pywinpty==2.0.12
+pywinpty==2.0.12; sys_platform == 'win32'
 PyYAML==6.0.1
 pyzmq==25.1.2
 qtconsole==5.5.1
